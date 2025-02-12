@@ -37,7 +37,7 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 ## Example (on PyCharm Community)
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7dbdb5a0-7105-4224-a976-1fbea907d5c2" alt="" width="900">
+<img src="https://github.com/user-attachments/assets/7dbdb5a0-7105-4224-a976-1fbea907d5c2" alt="" width="1000">
 </p>
 
 
