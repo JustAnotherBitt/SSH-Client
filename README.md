@@ -34,21 +34,10 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 3. After connecting, you can enter commands to execute on the remote server.
 4. Type `exit` to close the connection.
 
-## Example
-```
-IP address (press ENTER for localhost): 192.168.1.10
-Username: user
-Password: ******
-Connecting to 192.168.1.10...
--# ls
-file1.txt  file2.txt  script.py
--# whoami
-user
--# exit
-Bye...
-```
+## Example (on PyCharm Community)
+
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7dbdb5a0-7105-4224-a976-1fbea907d5c2" alt="" width="500">
+<img src="https://github.com/user-attachments/assets/7dbdb5a0-7105-4224-a976-1fbea907d5c2" alt="" width="900">
 </p>
 
 
