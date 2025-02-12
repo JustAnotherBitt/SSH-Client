@@ -18,23 +18,25 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 1. Clone this repository or download the script.
 2. Ensure you have Python installed.
 3. Install the required dependency:
+
    ```sh
    pip install paramiko
    ```
 
 ## Usage
 1. Run the script:
+
    ```sh
    python script.py
    ```
-2. Enter the required connection details:
+3. Enter the required connection details:
    - **IP Address** (Press ENTER for localhost)
    - **Username**
    - **Password**
-3. After connecting, you can enter commands to execute on the remote server.
-4. Type `exit` to close the connection.
+4. After connecting, you can enter commands to execute on the remote server.
+5. Type `exit` to close the connection.
 
-## Example (on PyCharm Community)
+## Example (running on PyCharm Community)
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7dbdb5a0-7105-4224-a976-1fbea907d5c2" alt="" width="1000">
@@ -44,6 +46,7 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 ## Notes
 - Ensure SSH is enabled on the target machine.
   You can use the following commands:
+  
   ```
   sudo systemctl start ssh
   ssh user@127.0.01
