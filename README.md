@@ -58,14 +58,16 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 You can also use Netcat to execute commands directly from a Linux terminal.
 
 1. After starting the ssh client, run the following command in the Linux terminal:
+
    ```sh
    nc -lvp <port>
    ```
-2. Then enter the following command in the PyCharm terminal:
+3. Then enter the following command in the PyCharm terminal:
+
    ```sh
    nc 127.0.0.1 <port> -e /bin/bash
    ```
-3. Press Enter to establish the connection.
+5. Press Enter to establish the connection.
 
 - Example:
 
