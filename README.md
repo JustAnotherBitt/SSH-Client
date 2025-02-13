@@ -70,7 +70,7 @@ You can also use Netcat to execute commands directly from a Linux terminal.
 - Example:
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/e036fc61-604d-4747-a493-796bf92fe94b" alt="" width="600">
+<img src="https://github.com/user-attachments/assets/e036fc61-604d-4747-a493-796bf92fe94b" alt="" width="400">
 </p>
 
 
