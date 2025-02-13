@@ -69,7 +69,7 @@ You can also use Netcat to execute commands directly from a Linux terminal.
    ```
 5. Press Enter to establish the connection.
 
-- Example:
+## Example (Netcat listening on Linux terminal):
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e036fc61-604d-4747-a493-796bf92fe94b" alt="" width="500">
