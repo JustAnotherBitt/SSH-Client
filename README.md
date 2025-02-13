@@ -54,5 +54,25 @@ This is a simple SSH client written in Python using the `paramiko` library. It a
 - The script uses `AutoAddPolicy` to accept unknown hosts automatically.
 - It is recommended to use SSH keys instead of passwords for better security.
 
+## Additional Method Using Netcat
+You can also use Netcat to execute commands directly from a Linux terminal.
+
+1. After starting the ssh client, run the following command in the Linux terminal:
+   ```sh
+   nc -lvp <port>
+   ```
+2. Then enter the following command in the PyCharm terminal:
+   ```sh
+   nc 127.0.0.1 <port> -e /bin/bash
+   ```
+3. Press Enter to establish the connection.
+
+- Example:
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e036fc61-604d-4747-a493-796bf92fe94b" alt="" width="800">
+</p>
+
+
 
 
