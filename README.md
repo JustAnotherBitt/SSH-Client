@@ -1,4 +1,4 @@
-# SSH Client with Paramiko
+# SSH Client 
 
 ## Overview
 This is a simple SSH client written in Python using the `paramiko` library. It allows users to connect to a remote server via SSH, execute commands, and receive output directly in the terminal.
